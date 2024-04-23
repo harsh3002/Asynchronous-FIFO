@@ -1,0 +1,29 @@
+{C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v} {1 {vlog -work work -stats=none {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module read_pointer_generation
+
+Top level modules:
+	read_pointer_generation
+
+} {} {}} {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v} {1 {vlog -work work -stats=none {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wrt_to_rd_sync
+
+Top level modules:
+	wrt_to_rd_sync
+
+} {} {}} {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v} {1 {vlog -work work -stats=none {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rd_to_wrt_sync
+
+Top level modules:
+	rd_to_wrt_sync
+
+} {} {}} {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v} {1 {vlog -work work -stats=none {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module write_pointer_gen
+
+Top level modules:
+	write_pointer_gen
+
+} {} {}}

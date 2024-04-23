@@ -1,0 +1,855 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v}
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 22:58:41 on Apr 22,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rd_data'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/mem_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 19
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'wrt_addr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'wrt_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 29
+# ** Error: (vsim-3063) Port 'wrt_ena' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rd_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/rd_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 38
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rd_addr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/rd_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 38
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'sync_rd_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/rd_wrt_sync_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 47
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'sync_wrt_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_rd_sync_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 53
+# Error loading design
+# End time: 22:58:42 on Apr 22,2024, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:01:42 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 23:01:42 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:01:42 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 23:01:42 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:01:42 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v 
+# -- Compiling module fifo_top_module
+# 
+# Top level modules:
+# 	fifo_top_module
+# End time: 23:01:42 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:01:42 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v 
+# -- Compiling module rd_to_wrt_sync
+# 
+# Top level modules:
+# 	rd_to_wrt_sync
+# End time: 23:01:42 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:01:42 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v 
+# -- Compiling module read_pointer_generation
+# 
+# Top level modules:
+# 	read_pointer_generation
+# End time: 23:01:43 on Apr 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:01:43 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v 
+# -- Compiling module write_pointer_gen
+# 
+# Top level modules:
+# 	write_pointer_gen
+# End time: 23:01:43 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:01:43 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v 
+# -- Compiling module wrt_to_rd_sync
+# 
+# Top level modules:
+# 	wrt_to_rd_sync
+# End time: 23:01:43 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 23:01:57 on Apr 22,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rd_data'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/mem_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 19
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'wrt_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 29
+# ** Error: (vsim-3063) Port 'wrt_ena' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rd_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/rd_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 38
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'sync_rd_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/rd_wrt_sync_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 47
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'sync_wrt_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_rd_sync_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 53
+# Error loading design
+# End time: 23:01:57 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:12 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 23:03:12 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:12 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 23:03:12 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:12 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v 
+# -- Compiling module fifo_top_module
+# 
+# Top level modules:
+# 	fifo_top_module
+# End time: 23:03:12 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:12 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v 
+# -- Compiling module rd_to_wrt_sync
+# 
+# Top level modules:
+# 	rd_to_wrt_sync
+# End time: 23:03:12 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:13 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v 
+# -- Compiling module read_pointer_generation
+# 
+# Top level modules:
+# 	read_pointer_generation
+# End time: 23:03:13 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:13 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v 
+# -- Compiling module write_pointer_gen
+# 
+# Top level modules:
+# 	write_pointer_gen
+# End time: 23:03:13 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:13 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v 
+# -- Compiling module wrt_to_rd_sync
+# 
+# Top level modules:
+# 	wrt_to_rd_sync
+# End time: 23:03:13 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 23:03:16 on Apr 22,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'wrt_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 29
+# ** Error: (vsim-3063) Port 'wrt_ena' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 29
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'rd_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/rd_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 38
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'sync_rd_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/rd_wrt_sync_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 47
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'sync_wrt_ptr'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_rd_sync_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 53
+# Error loading design
+# End time: 23:03:16 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:54 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 23:03:54 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:54 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 23:03:54 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:54 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v 
+# -- Compiling module fifo_top_module
+# 
+# Top level modules:
+# 	fifo_top_module
+# End time: 23:03:54 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:54 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v 
+# -- Compiling module rd_to_wrt_sync
+# 
+# Top level modules:
+# 	rd_to_wrt_sync
+# End time: 23:03:54 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:54 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v 
+# -- Compiling module read_pointer_generation
+# 
+# Top level modules:
+# 	read_pointer_generation
+# End time: 23:03:54 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:54 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v 
+# -- Compiling module write_pointer_gen
+# 
+# Top level modules:
+# 	write_pointer_gen
+# End time: 23:03:55 on Apr 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:03:55 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v 
+# -- Compiling module wrt_to_rd_sync
+# 
+# Top level modules:
+# 	wrt_to_rd_sync
+# End time: 23:03:55 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 23:03:57 on Apr 22,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+# ** Error: (vsim-3063) Port 'wrt_ena' not found in the connected module (6th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb/dut/wrt_ptr_gen_inst File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v Line: 29
+# Error loading design
+# End time: 23:03:58 on Apr 22,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:05:14 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 23:05:14 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:05:14 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 23:05:14 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:05:14 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v 
+# -- Compiling module fifo_top_module
+# 
+# Top level modules:
+# 	fifo_top_module
+# End time: 23:05:14 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:05:14 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v 
+# -- Compiling module rd_to_wrt_sync
+# 
+# Top level modules:
+# 	rd_to_wrt_sync
+# End time: 23:05:14 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:05:14 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v 
+# -- Compiling module read_pointer_generation
+# 
+# Top level modules:
+# 	read_pointer_generation
+# End time: 23:05:15 on Apr 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:05:15 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v 
+# -- Compiling module write_pointer_gen
+# 
+# Top level modules:
+# 	write_pointer_gen
+# End time: 23:05:15 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:05:15 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v 
+# -- Compiling module wrt_to_rd_sync
+# 
+# Top level modules:
+# 	wrt_to_rd_sync
+# End time: 23:05:15 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 23:05:17 on Apr 22,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+add wave -position insertpoint sim:/fifo_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:08:36 on Apr 22,2024, Elapsed time: 0:03:19
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:09:01 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 23:09:01 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:09:01 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 23:09:01 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:09:02 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v 
+# -- Compiling module fifo_top_module
+# 
+# Top level modules:
+# 	fifo_top_module
+# End time: 23:09:02 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:09:02 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v 
+# -- Compiling module rd_to_wrt_sync
+# 
+# Top level modules:
+# 	rd_to_wrt_sync
+# End time: 23:09:02 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:09:02 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v 
+# -- Compiling module read_pointer_generation
+# 
+# Top level modules:
+# 	read_pointer_generation
+# End time: 23:09:02 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:09:02 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v 
+# -- Compiling module write_pointer_gen
+# 
+# Top level modules:
+# 	write_pointer_gen
+# End time: 23:09:02 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:09:02 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v 
+# -- Compiling module wrt_to_rd_sync
+# 
+# Top level modules:
+# 	wrt_to_rd_sync
+# End time: 23:09:02 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 23:09:04 on Apr 22,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 23:18:11 on Apr 22,2024, Elapsed time: 0:09:07
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:18:31 on Apr 22,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 23:18:31 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 23:18:33 on Apr 22,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+add wave -position insertpoint sim:/fifo_tb/*
+run
+run
+quit -sim
+# End time: 07:22:01 on Apr 23,2024, Elapsed time: 8:03:28
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:23:27 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 07:23:28 on Apr 23,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:23:28 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 07:23:28 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:23:28 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v 
+# -- Compiling module fifo_top_module
+# 
+# Top level modules:
+# 	fifo_top_module
+# End time: 07:23:28 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:23:28 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v 
+# -- Compiling module rd_to_wrt_sync
+# 
+# Top level modules:
+# 	rd_to_wrt_sync
+# End time: 07:23:28 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:23:28 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v 
+# -- Compiling module read_pointer_generation
+# 
+# Top level modules:
+# 	read_pointer_generation
+# End time: 07:23:28 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:23:29 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v 
+# -- Compiling module write_pointer_gen
+# 
+# Top level modules:
+# 	write_pointer_gen
+# End time: 07:23:29 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:23:29 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v 
+# -- Compiling module wrt_to_rd_sync
+# 
+# Top level modules:
+# 	wrt_to_rd_sync
+# End time: 07:23:29 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 07:23:31 on Apr 23,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 07:44:12 on Apr 23,2024, Elapsed time: 0:20:41
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb work.fifo_top_module work.rd_to_wrt_sync work.read_pointer_generation work.write_pointer_gen work.wrt_to_rd_sync
+# vsim work.fifo_tb work.fifo_top_module work.rd_to_wrt_sync work.read_pointer_generation work.write_pointer_gen work.wrt_to_rd_sync 
+# Start time: 07:44:32 on Apr 23,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+quit -sim
+# End time: 07:44:56 on Apr 23,2024, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:44:59 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 07:44:59 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:44:59 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 07:44:59 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:45:00 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v 
+# -- Compiling module fifo_top_module
+# 
+# Top level modules:
+# 	fifo_top_module
+# End time: 07:45:00 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:45:00 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v 
+# -- Compiling module rd_to_wrt_sync
+# 
+# Top level modules:
+# 	rd_to_wrt_sync
+# End time: 07:45:00 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:45:00 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v 
+# -- Compiling module read_pointer_generation
+# 
+# Top level modules:
+# 	read_pointer_generation
+# End time: 07:45:00 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:45:00 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v 
+# -- Compiling module write_pointer_gen
+# 
+# Top level modules:
+# 	write_pointer_gen
+# End time: 07:45:00 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:45:00 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v 
+# -- Compiling module wrt_to_rd_sync
+# 
+# Top level modules:
+# 	wrt_to_rd_sync
+# End time: 07:45:00 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:53:19 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 07:53:20 on Apr 23,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:53:20 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 07:53:20 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:53:20 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v 
+# -- Compiling module fifo_top_module
+# 
+# Top level modules:
+# 	fifo_top_module
+# End time: 07:53:20 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:53:20 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v 
+# -- Compiling module rd_to_wrt_sync
+# 
+# Top level modules:
+# 	rd_to_wrt_sync
+# End time: 07:53:20 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:53:20 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v 
+# -- Compiling module read_pointer_generation
+# 
+# Top level modules:
+# 	read_pointer_generation
+# End time: 07:53:20 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:53:20 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v 
+# -- Compiling module write_pointer_gen
+# 
+# Top level modules:
+# 	write_pointer_gen
+# End time: 07:53:21 on Apr 23,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:53:21 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v 
+# -- Compiling module wrt_to_rd_sync
+# 
+# Top level modules:
+# 	wrt_to_rd_sync
+# End time: 07:53:21 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 07:53:22 on Apr 23,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 07:57:01 on Apr 23,2024, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:58:07 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 07:58:07 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 07:58:08 on Apr 23,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+add wave -position insertpoint sim:/fifo_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 07:59:19 on Apr 23,2024, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:59:55 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 07:59:55 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 07:59:57 on Apr 23,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+add wave -position insertpoint sim:/fifo_tb/*
+run
+run
+run
+run
+run
+quit -sim
+# End time: 08:01:37 on Apr 23,2024, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 0
+vlog -work work {C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:02:05 on Apr 23,2024
+# vlog -reportprogress 300 -work work C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v 
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 08:02:05 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 08:02:06 on Apr 23,2024
+# Loading work.fifo_tb
+# Loading work.fifo_top_module
+# Loading work.fifo_mem
+# Loading work.write_pointer_gen
+# Loading work.read_pointer_generation
+# Loading work.rd_to_wrt_sync
+# Loading work.wrt_to_rd_sync
+add wave -position insertpoint sim:/fifo_tb/*
+run
+run
+run
+run
+run
+quit -sim
+# End time: 08:13:21 on Apr 23,2024, Elapsed time: 0:11:15
+# Errors: 0, Warnings: 0

@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vfifo_mem
+Z0 !s110 1713839000
+!i10b 1
+!s100 h6;Y_NJhE]>0:McjieD=U2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INjI<a5gg41k1^GmB05gA52
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO
+w1713838468
+8C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v
+FC:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v
+!i122 91
+L0 4 20
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1713838999.000000
+!s107 C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v|
+!s90 -reportprogress|300|-work|work|C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_memory.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vfifo_tb
+!s110 1713839525
+!i10b 1
+!s100 1F2F>XDNn657Xkj_2Z0d@3
+R1
+Ibj:@lWE`_MGhJ;TYUiNFa1
+R2
+R3
+w1713839521
+8C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v
+FC:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v
+!i122 100
+L0 4 79
+R4
+r1
+!s85 0
+31
+!s108 1713839525.000000
+!s107 C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_tb.v|
+!i113 1
+R5
+R6
+vfifo_top_module
+R0
+!i10b 1
+!s100 hB=e5OLS2ziiOQX?YfHJN0
+R1
+I?dHI_gjh6@bGU==2;mMUd2
+R2
+R3
+w1713837197
+8C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v
+FC:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v
+!i122 93
+L0 6 55
+R4
+r1
+!s85 0
+31
+Z7 !s108 1713839000.000000
+!s107 C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v|
+!s90 -reportprogress|300|-work|work|C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_top.v|
+!i113 1
+R5
+R6
+vrd_to_wrt_sync
+R0
+!i10b 1
+!s100 ^LjR4PzSdbGYJ7RzkLO>82
+R1
+IXaokKJLl[;3mO`^Ok^?`Q1
+R2
+R3
+w1713803778
+8C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v
+FC:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v
+!i122 94
+Z8 L0 4 16
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v|
+!s90 -reportprogress|300|-work|work|C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/rd_to_wrt_sync.v|
+!i113 1
+R5
+R6
+vread_pointer_generation
+R0
+!i10b 1
+!s100 V:i;LHII0kNULWb<44acB0
+R1
+I0>GlV[KVQTc_Yd3n>^KJG3
+R2
+R3
+w1713838891
+8C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v
+FC:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v
+!i122 95
+L0 5 31
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v|
+!s90 -reportprogress|300|-work|work|C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_rd_ptr_gen.v|
+!i113 1
+R5
+R6
+vwrite_pointer_gen
+R0
+!i10b 1
+!s100 U2UVjQ9`PjOl7<W:j0Ef51
+R1
+I;:enBl1fPi64Bd_oTBHR:0
+R2
+R3
+w1713803055
+8C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v
+FC:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v
+!i122 96
+L0 4 35
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v|
+!s90 -reportprogress|300|-work|work|C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/fifo_wrt_ptr_gen.v|
+!i113 1
+R5
+R6
+vwrt_to_rd_sync
+!s110 1713839001
+!i10b 1
+!s100 _MB=E=niGTYlk?0ENJ`:`1
+R1
+I_zdL5JeGXgG:522UaNTXC2
+R2
+R3
+w1713803884
+8C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v
+FC:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v
+!i122 97
+R8
+R4
+r1
+!s85 0
+31
+!s108 1713839001.000000
+!s107 C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v|
+!s90 -reportprogress|300|-work|work|C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Asynchronous FIFO/wrt_to_rd_sync.v|
+!i113 1
+R5
+R6
